@@ -1,0 +1,268 @@
+
+   *{
+   
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-color: whitesmoke;
+}
+
+
+
+.top{
+        display: flex;
+        width: 98%;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 10px 0px 10px;
+        background-color: white;  
+        /* margin-bottom: 50px;  */
+        position: fixed;
+        padding-top: 10px;
+    }
+
+    .fa-brands{
+        font-size: 20px;
+    }
+
+
+.logo h3{
+/* margin-left: 20px; */
+font-size: 25px;
+margin: 0px;
+padding: 0px;
+
+}
+
+
+
+
+  .menu-bar ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 30px;
+}
+
+.menu-bar ul{
+    display: flex;
+    justify-content: center;
+}
+
+    .menu-bar ul li a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        
+    }
+
+    .menu-bar ul li a:hover{
+        color: goldenrod;
+        text-shadow: rgb(255, 215, 0, 1);
+        /* font-size: 21px; */
+    } 
+
+
+.container{
+display: flex;
+align-items: center;
+background: white;
+justify-content: space-around;
+text-align: center;
+height: 450px;
+padding-bottom: 50px;
+padding-top: 50px;
+
+}
+
+.my-image img{
+height: 400px;
+width: 400px;
+border-radius: 50%;
+box-shadow: 2px 2px 2px 2px gold;
+background: goldenrod;
+}
+
+.container h1, h2{
+font-size: 40px;
+}
+
+
+.container p{
+margin-top: 20px;
+}
+
+.container hr{
+margin-bottom: 20px;
+}
+
+hr{
+border: 2px solid goldenrod;
+width: 200px;
+margin-left: 80px;
+}
+
+#btn{
+background-color: whitesmoke;
+border: none;
+padding: 10px;
+font-size: 14px;
+font-weight: 800;
+border-radius: 10px;
+box-shadow:1px 1px 2px 2px rgb(143, 139, 139);
+margin-top: 8px;
+}
+
+#btn a{
+text-decoration: none;
+color: black;
+}
+
+
+#btn:hover{
+    background-color: gold;
+    font-size: 15px;
+
+    }
+    
+
+
+.projects{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.my-projects{
+
+margin-top: 10px;
+background-color: white;
+padding: 50px;
+}
+
+
+.my-projects h1{
+    margin-bottom: 20px;
+    font-size: 36px;
+    
+    
+}
+
+.project{
+    width: 20%;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px 2px rgb(204, 199, 199);
+    padding-bottom: 10px;
+    text-align: center;
+   
+}
+
+
+
+.project img{
+    width: 90%;
+
+}
+
+.project p{
+    margin: 10px;
+}
+
+
+.project button{
+margin-top: 10px;
+padding: 10px;
+font-size: 14px;
+font-weight: 800;
+background-color: whitesmoke;
+border: none;
+border-radius: 10px;
+box-shadow:2px 2px 2px 2px rgb(143, 139, 139);
+}
+
+.about{
+    font-family:'Times New Roman', Times, serif;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 20px;
+    /* word-spacing: 10px; */
+    background-color: white;
+    padding: 20px;
+    box-shadow: 10px 10px 5px rgb(226, 224, 224);
+
+
+    
+}
+
+.about h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about p{
+    width: 65%;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.contact {
+    background-color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.contact h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+    width: 40%;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+
+padding: 10px 20px;
+font-size: 14px;
+font-weight: 800;
+background-color: whitesmoke;
+border: none;
+border-radius: 5px;
+box-shadow:2px 2px 2px 2px rgb(143, 139, 139);
+}
+
+button[type="submit"]:hover {
+    background-color: goldenrod;
+}
